@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const moleculeSchema = new mongoose.Schema({
   name: { type: String, required: true },
   age: { type: String, required: true },
-  man: { type: Boolean, required: true },
+  sex: { type: String, required: true },
   woman: { type: String, required: true },
   pathology: { type: Array, required: true },
   medication: { type: Array, required: true },
@@ -18,7 +18,8 @@ const moleculeSchema = new mongoose.Schema({
   freq_cons_sup_2: { type: String, required: true },
   water_liters_per_day: { type: String, required: true },
   eyes: { type: String, required: true },
-  stress: { type: String, required: true },
+    score: { type: Number, required: true },
+  theme:{ type: String, required: true }
 });
 
 const Molecule = mongoose.model("Molecule", moleculeSchema);

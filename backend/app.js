@@ -12,5 +12,6 @@ connectDB();
 
 // Routes
 app.use("/api/molecules", require("./routes/moleculeRoutes"));
-
+app.use("/api/questions", require("./routes/questionRoutes"));
+app.use("/api/questionnaires", require("./routes/questionnaireRoutes"));
 module.exports = app;

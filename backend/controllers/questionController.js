@@ -1,55 +1,70 @@
-const Question = require("../models/questionModel");
+const questionService = require('../services/questionService');
 
-// Create a new question
 const createQuestion = async (req, res) => {
   try {
-    const question = new Question(req.body);
-    await question.save();
+    const question = await questionService.createQuestion(req.body);
     res.status(201).json(question);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
 };
 
-// Get all questions
-const getQuestions = async (req, res) => {
+const getAllQuestions = async (req, res) => {
   try {
-    const questions = await Question.find();
+    const questions = await questionService.getAllQuestions();
     res.status(200).json(questions);
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    res.status(400).json({ message: error.message });
   }
 };
 
-// Get a single question by ID
 const getQuestionById = async (req, res) => {
-  const { id } = req.params;
   try {
-    const question = await Question.findById(id);
-    if (!question) {
-      return res.status(404).json({ message: "Question not found" });
+    const question = await questionService.getQuestionById(req.params.id);
+    if (question) {
+      res.status(200).json(question);
+    } else {
+      res.status(404).json({ message: 'Question not found' });
     }
-    res.status(200).json(question);
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    res.status(400).json({ message: error.message });
   }
 };
 
-// Update a question by ID
 const updateQuestion = async (req, res) => {
-  const { id } = req.params;
-  const updates = req.body;
-
   try {
-    const question = await Question.findByIdAndUpdate(id, updates, {
-      new: true,
-    });
-
-    if (!question) {
-      return res.status(404).json({ message: "Question not found" });
+    const question = await questionService.updateQuestion(req.params.id, req.body);
+    if (question) {
+      res.status(200).json(question);
+    } else {
+      res.status(404).json({ message: 'Question not found' });
     }
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+};
 
-    res.status(200).json(question);
+const deleteQuestion = async (req, res) => {
+  try {
+    const question = await questionService.deleteQuestion(req.params.id);
+    if (question) {
+      res.status(200).json({ message: 'Question deleted' });
+    } else {
+      res.status(404).json({ message: 'Question not found' });
+    }
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+};
+
+const getNextQuestion = async (req, res) => {
+  try {
+    const nextQuestion = await questionService.getNextQuestion(req.params.id, req.body.answerText);
+    if (nextQuestion) {
+      res.status(200).json(nextQuestion);
+    } else {
+      res.status(404).json({ message: 'Next question not found' });
+    }
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
@@ -57,7 +72,9 @@ const updateQuestion = async (req, res) => {
 
 module.exports = {
   createQuestion,
-  getQuestions,
+  getAllQuestions,
   getQuestionById,
   updateQuestion,
+  deleteQuestion,
+  getNextQuestion
 };

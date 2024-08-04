@@ -1,29 +1,37 @@
-const Question = require("../models/questionModel");
+const Question = require('../models/question');
 
-// Service to create a question
-const createQuestion = async (data) => {
-  const question = new Question(data);
+const createQuestion = async (questionData) => {
+  const question = new Question(questionData);
   return await question.save();
 };
 
-// Service to get all questions
-const getQuestions = async () => {
-  return await Question.find();
+const getAllQuestions = async () => {
+  return await Question.find().populate('answers.nextQuestionId');
 };
 
-// Service to get a question by ID
 const getQuestionById = async (id) => {
-  return await Question.findById(id);
+  return await Question.findById(id).populate('answers.nextQuestionId');
 };
 
-// Service to update a question by ID
-const updateQuestion = async (id, updates) => {
-  return await Question.findByIdAndUpdate(id, updates, { new: true });
+const updateQuestion = async (id, updateData) => {
+  return await Question.findByIdAndUpdate(id, updateData, { new: true }).populate('answers.nextQuestionId');
+};
+
+const deleteQuestion = async (id) => {
+  return await Question.findByIdAndDelete(id);
+};
+
+const getNextQuestion = async (id, answerText) => {
+  const question = await Question.findById(id).populate('answers.nextQuestionId');
+  const answer = question.answers.find(ans => ans.text === answerText);
+  return answer ? answer.nextQuestionId : null;
 };
 
 module.exports = {
   createQuestion,
-  getQuestions,
+  getAllQuestions,
   getQuestionById,
   updateQuestion,
+  deleteQuestion,
+  getNextQuestion
 };
