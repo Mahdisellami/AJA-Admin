@@ -1,11 +1,11 @@
 import React from "react";
 
-import MoleculeForm from "../components/MoleculeForm";
+import QuestionForm from "../components/QuestionForm";
 
 function AdminPage() {
   return (
     <div>
-      <MoleculeForm></MoleculeForm>
+      <QuestionForm></QuestionForm>
     </div>
   );
 }
