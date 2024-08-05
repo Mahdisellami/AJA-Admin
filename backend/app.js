@@ -1,7 +1,7 @@
 const express = require("express");
 require("dotenv").config();
 const connectDB = require("./config/db");
-const cors = require('cors');
+const cors = require("cors");
 const app = express();
 
 // Middleware
@@ -13,5 +13,5 @@ connectDB();
 // Routes
 app.use("/api/molecules", require("./routes/moleculeRoutes"));
 app.use("/api/questions", require("./routes/questionRoutes"));
-app.use("/api/questionnaires", require("./routes/questionnaireRoutes"));
+app.use("/api/recordings", require("./routes/recordingRoutes"));
 module.exports = app;

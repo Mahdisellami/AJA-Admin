@@ -120,7 +120,7 @@ const options = {
   ],
 };
 
-const MoleculeForm = () => {
+const AddMoleculePage = () => {
   const [formData, setFormData] = useState({
     name: "",
     age: [],
@@ -479,4 +479,4 @@ const MoleculeForm = () => {
   );
 };
 
-export default MoleculeForm;
+export default AddMoleculePage;
