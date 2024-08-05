@@ -3,11 +3,14 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const QuestionForm = () => {
+const AddQuestionPage = () => {
   const [formData, setFormData] = useState({
     text: "",
     condition_field: "",
-    options: false,
+    isFirst: false,
+    isThemeRelated: false,
+    theme: "",
+    multiple: false,
     answers: [{ answer: "", nextQuestionId: "" }],
   });
   const [questions, setQuestions] = useState([]);
@@ -61,10 +64,25 @@ const QuestionForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Filter out answers with an empty nextQuestionId
+    const filteredAnswers = formData.answers.map((answer) => {
+      if (answer.nextQuestionId === "") {
+        const { nextQuestionId, ...rest } = answer;
+        return rest;
+      }
+      return answer;
+    });
+
+    const filteredFormData = {
+      ...formData,
+      answers: filteredAnswers,
+    };
+
     try {
       const response = await axios.post(
         "http://localhost:8000/api/questions",
-        formData,
+        filteredFormData,
       );
       console.log("Question added successfully:", response.data);
       // Optionally, reset form or show success message
@@ -101,6 +119,46 @@ const QuestionForm = () => {
           name="condition_field"
           value={formData.condition_field}
           onChange={handleInputChange}
+      
+        />
+      </div>
+      <div className="form-check mb-3">
+        <input
+          className="form-check-input"
+          type="checkbox"
+          id="isFirst"
+          name="isFirst"
+          checked={formData.isFirst}
+          onChange={handleInputChange}
+        />
+        <label className="form-check-label" htmlFor="isFirst">
+          Is First Question
+        </label>
+      </div>
+      <div className="form-check mb-3">
+        <input
+          className="form-check-input"
+          type="checkbox"
+          id="isThemeRelated"
+          name="isThemeRelated"
+          checked={formData.isThemeRelated}
+          onChange={handleInputChange}
+        />
+        <label className="form-check-label" htmlFor="isThemeRelated">
+          Is Theme Related
+        </label>
+      </div>
+      <div className="mb-3">
+        <label htmlFor="theme" className="form-label">
+          Theme
+        </label>
+        <input
+          type="text"
+          className="form-control"
+          id="theme"
+          name="theme"
+          value={formData.theme}
+          onChange={handleInputChange}
           required
         />
       </div>
@@ -108,13 +166,13 @@ const QuestionForm = () => {
         <input
           className="form-check-input"
           type="checkbox"
-          id="options"
-          name="options"
-          checked={formData.options}
+          id="multiple"
+          name="multiple"
+          checked={formData.multiple}
           onChange={handleInputChange}
         />
-        <label className="form-check-label" htmlFor="options">
-          Options
+        <label className="form-check-label" htmlFor="multiple">
+          Multiple
         </label>
       </div>
       <div className="mb-3">
@@ -163,4 +221,4 @@ const QuestionForm = () => {
   );
 };
 
-export default QuestionForm;
+export default AddQuestionPage;

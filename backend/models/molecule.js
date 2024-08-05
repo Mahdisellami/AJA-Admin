@@ -17,9 +17,9 @@ const moleculeSchema = new mongoose.Schema({
   fruit_veg_per_day: { type: Array, required: true },
   freq_cons_sup_2: { type: Array, required: true },
   water_liters_per_day: { type: Array, required: true },
-    eyes: { type: Array, required: true },
-    score: { type: Number, required: true },
-  theme:{ type: Array, required: true }
+  eyes: { type: Array, required: true },
+  score: { type: Number, required: true },
+  theme: { type: Array, required: true },
 });
 
 const Molecule = mongoose.model("Molecule", moleculeSchema);
