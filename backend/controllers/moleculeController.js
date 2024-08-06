@@ -54,10 +54,20 @@ const deleteMoleculeById = async (req, res) => {
   }
 };
 
+const selectBestFiveMolecules = async (req, res) => {
+  try {
+    const molecules = await moleculeService.selectBestFiveMolecules();
+    res.status(200).json(molecules);
+  } catch (err) {
+    res.status(404).json({ error: err.message });
+  }
+};
+
 module.exports = {
   createMolecule,
   getAllMolecules,
   getMoleculeById,
   updateMolecule,
   deleteMoleculeById,
+  selectBestFiveMolecules,
 };

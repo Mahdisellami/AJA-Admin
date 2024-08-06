@@ -38,10 +38,35 @@ const deleteMoleculeById = async (id) => {
   return molecule;
 };
 
+const selectBestFiveMolecules = async () => {
+  const selectedMolecules = [];
+  const molecules = await Molecule.find();
+  if (!molecules) {
+    throw new Error("Molecule not found");
+  }
+  // Sort by priority, then score (descending)
+  molecules.sort((a, b) => (a.priority - b.priority) || (b.score - a.score));
+
+  // Select first molecule of priority 1
+  const priorityOneMolecules = molecules.filter(m => m.priority === 1);
+  if (priorityOneMolecules.length > 0) {
+    selectedMolecules.push(priorityOneMolecules[0]);
+  }
+  const currentLength = selectedMolecules.length
+
+  // Randomly select remaining molecules from priority 2 (or higher)
+  const priorityTwoMolecules = molecules.filter(m => m.priority === 2);
+  for (let i = 0; (i < priorityTwoMolecules.length) && (i < 5 - currentLength); i++) {
+    selectedMolecules.push(priorityTwoMolecules[i]);
+  }
+  return selectedMolecules;
+};
+
 module.exports = {
   createMolecule,
   getAllMolecules,
   getMoleculeById,
   updateMoleculeById,
   deleteMoleculeById,
+  selectBestFiveMolecules,
 };

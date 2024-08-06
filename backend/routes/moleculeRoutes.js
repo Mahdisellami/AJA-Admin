@@ -17,4 +17,7 @@ router.delete("/:id", moleculeController.deleteMoleculeById);
 // Patch a Molecule by ID
 router.patch("/:id", moleculeController.updateMolecule);
 
+// Select best 5 Molecules
+router.get("/selectBestFive", moleculeController.selectBestFiveMolecules);
+
 module.exports = router;
