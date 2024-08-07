@@ -5,6 +5,10 @@ import { createMolecule } from "../services/MoleculeService"; // Import the API 
 
 // Options for each multi-select field
 const options = {
+  priority: [
+    { value: 1, label: "I" },
+    { value: 2, label: "II" },
+  ],
   age: [
     { value: "Personnes âgées", label: "Personnes âgées" },
     { value: "adulte", label: "Adulte" },
@@ -22,9 +26,13 @@ const options = {
     { value: "Enceinte", label: "Enceinte" },
   ],
   pathology: [
-    { value: "Hypertension", label: "Hypertension" },
+    { value: "hypertension", label: "Hypertension" },
     { value: "diabetes", label: "Diabète" },
     { value: "tachycardia", label: "Tachycardie" },
+    { value: "epilepsy", label: "Epilepsie" },
+    { value: "hepatic insufficiency", label: "Insuffisance hepatique" },
+    { value: "renal insufficiency", label: "Insuffisance rénale" },
+    { value: "coagulation disorder", label: "Trouble de coagulation" },
   ],
   medication: [
     { value: "Anticoagulants", label: "Anticoagulants" },
@@ -123,6 +131,7 @@ const options = {
 const AddMoleculePage = () => {
   const [formData, setFormData] = useState({
     name: "",
+    priority: "",
     age: [],
     sex: [],
     woman: [],
@@ -190,6 +199,34 @@ const AddMoleculePage = () => {
         />
       </div>
       <div className="mb-3">
+        <label htmlFor="priority" className="form-label">
+          Priorité
+        </label>
+        <Select
+          name="priority"
+          options={options.priority}
+          classNamePrefix="select"
+          value={options.priority.find(
+            (option) => option.value === formData.priority,
+          )}
+          onChange={handleChange}
+        />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="score" className="form-label">
+          Score
+        </label>
+        <Select
+          name="score"
+          options={options.score}
+          classNamePrefix="select"
+          value={options.score.find(
+            (option) => option.value === formData.score,
+          )}
+          onChange={handleChange}
+        />
+      </div>
+      <div className="mb-3">
         <label htmlFor="age" className="form-label">
           Age
         </label>
@@ -203,7 +240,6 @@ const AddMoleculePage = () => {
             formData.age.includes(option.value),
           )}
           onChange={handleChange}
-          required
         />
       </div>
       <div className="mb-3">
@@ -220,7 +256,6 @@ const AddMoleculePage = () => {
             formData.sex.includes(option.value),
           )}
           onChange={handleChange}
-          required
         />
       </div>
       <div className="mb-3">
@@ -454,20 +489,6 @@ const AddMoleculePage = () => {
           classNamePrefix="select"
           value={options.theme.filter((option) =>
             formData.theme.includes(option.value),
-          )}
-          onChange={handleChange}
-        />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="score" className="form-label">
-          Score
-        </label>
-        <Select
-          name="score"
-          options={options.score}
-          classNamePrefix="select"
-          value={options.score.find(
-            (option) => option.value === formData.score,
           )}
           onChange={handleChange}
         />
