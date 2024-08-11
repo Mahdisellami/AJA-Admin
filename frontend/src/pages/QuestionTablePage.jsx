@@ -7,7 +7,7 @@ const QuestionTablePage = () => {
 
   const fetchQuestions = async () => {
     try {
-      const response = await axios.get("http://localhost:8000/api/questions");
+      const response = await axios.get("http://system.aja.bio/backend/api/questions");
       setQuestions(response.data);
       console.log(response.data);
     } catch (error) {
@@ -17,7 +17,7 @@ const QuestionTablePage = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:8000/api/questions/${id}`);
+      await axios.delete(`http://system.aja.bio/backend/api/questions/${id}`);
       setQuestions(questions.filter((question) => question._id !== id));
       console.log("Question deleted successfully");
     } catch (error) {

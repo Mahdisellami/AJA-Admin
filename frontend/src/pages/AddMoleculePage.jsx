@@ -10,42 +10,42 @@ const options = {
     { value: 2, label: "II" },
   ],
   age: [
-    { value: "Personnes âgées", label: "Personnes âgées" },
-    { value: "adulte", label: "Adulte" },
-    { value: "enfants", label: "Enfants" },
+    { value: "66b4d61c8596df14d43fa098", label: "Elderly" },
+    { value: "66b4d61c8596df14d43fa099", label: "Adult" },
+    { value: "66b4d61c8596df14d43fa09a", label: "Child" },
   ],
   sex: [
-    { value: "homme", label: "Homme" },
-    { value: "femme", label: "Femme" },
+    { value: "66b4d2598596df14d43fa08f", label: "Man" },
+    { value: "66b4d2598596df14d43fa08e", label: "Woman" },
   ],
   woman: [
-    { value: "menopausé", label: "Ménopausé" },
-    { value: "age de procreer", label: "Âge de procréer" },
-    { value: "Procréation planifiée", label: "Procréation planifiée" },
-    { value: "Allaitante", label: "Allaitante" },
-    { value: "Enceinte", label: "Enceinte" },
+    { value: "66b4d5cf8596df14d43fa092", label: "Menopausal" },
+    { value: "66b4d5cf8596df14d43fa093", label: "Planned reproduction" },
+    { value: "66b4d5cf8596df14d43fa094", label: "Pregnant" },
+    { value: "66b4d5cf8596df14d43fa095", label: "Breastfeeding" },
   ],
   pathology: [
-    { value: "hypertension", label: "Hypertension" },
-    { value: "diabetes", label: "Diabète" },
-    { value: "tachycardia", label: "Tachycardie" },
-    { value: "epilepsy", label: "Epilepsie" },
-    { value: "hepatic insufficiency", label: "Insuffisance hepatique" },
-    { value: "renal insufficiency", label: "Insuffisance rénale" },
-    { value: "coagulation disorder", label: "Trouble de coagulation" },
+    { value: "66b4db718596df14d43fa09d", label: "Psychiatric" },
+    { value: "66b4db718596df14d43fa09e", label: "Cardiovascular disorder" },
+    { value: "66b4db718596df14d43fa09f", label: "Hypertension" },
+    { value: "66b4db718596df14d43fa0a0", label: "Diabetes" },
+    { value: "66b4db718596df14d43fa0a1", label: "coagulation disorder" },
+    { value: "66b4db718596df14d43fa0a2", label: "liver failure" },
+    { value: "66b4db718596df14d43fa0a3", label: "Renal insufficiensy" },
   ],
   medication: [
-    { value: "Anticoagulants", label: "Anticoagulants" },
-    { value: "Antidiabétiques", label: "Antidiabétiques" },
-    { value: "Antihypertenseurs", label: "Antihypertenseurs" },
-    { value: "Antidépresseurs", label: "Antidépresseurs" },
-    { value: "antibiotique", label: "Antibiotique" },
-    { value: "autre", label: "Autre" },
+    { value: "66b4dd208596df14d43fa0a6", label: "Antidiabetic" },
+    { value: "66b4dd208596df14d43fa0a7", label: "Antidepressant" },
+    { value: "66b4dd208596df14d43fa0a8", label: "Antibiotic" },
+    { value: "66b4dd208596df14d43fa0a9", label: "Anticoagulant" },
+    { value: "66b4dd208596df14d43fa0aa", label: "Antihypertensive" },
+    { value: "66b4dd208596df14d43fa0ab", label: "None" },
+    { value: "66b72d68acf23c997fe02ca4", label: "heart medication" },
   ],
-  alcool: [
-    { value: "non", label: "Non" },
-    { value: "moyen", label: "Moyen" },
-    { value: "hardcore", label: "Hardcore" },
+  alcohol: [
+    { value: "66b4dda08596df14d43fa0ae", label: "Never" },
+    { value: "66b4dda08596df14d43fa0af", label: "Occasionaly" },
+    { value: "66b4dda08596df14d43fa0b0", label: "Often" },
   ],
   diet: [
     { value: "Normal", label: "Normal" },
@@ -97,10 +97,100 @@ const options = {
     { value: "Stress 2", label: "Stress 2" },
   ],
   theme: [
-    { value: "stress", label: "Stress" },
-    { value: "sommeil", label: "Sommeil" },
-    { value: "energy", label: "Energy" },
-    { value: "immunity", label: "Immunity" },
+    { value: "66b4cc228596df14d43fa053", label: "Energy and Immunity", 
+      answers: [
+        { value: "66b4cc228596df14d43fa054", label: "- I want to strengthen my body naturally." },
+        { value: "66b4cc228596df14d43fa055", label: "- I want to avoid getting sick often." },
+        { value: "66b4cc228596df14d43fa056", label: "- I wish to strengthen my natural defenses." },
+        { value: "66b4cc228596df14d43fa057", label: "- I want to get rid of persistent fatigue." },
+        { value: "66b4cc228596df14d43fa058", label: "- I need a temporary energy boost." },
+        { value: "66b7a844edd3fd6345377a41", label: "- I want to reduce and prevent seasonal allergies and food intolerances." },
+      ],
+    },
+    { value: "66b4ce548596df14d43fa05e", label: "sport and muscles", 
+      answers: [
+        { value: "66b4ce548596df14d43fa05f", label: "- I want to improve my athletic performance." },
+        { value: "66b71cc0acf23c997fe02ca2", label: "- I want to improve my endurance and resistance to effort." },
+        { value: "66b71cb0acf23c997fe02ca0", label: "- I have muscle pain and soreness after physical exertion." },
+        { value: "66b4ce548596df14d43fa060", label: "- I want to recover faster after exercise." },
+        { value: "66b4ce548596df14d43fa061", label: "- I want to prevent sports injuries." },
+        { value: "66b4ce548596df14d43fa062", label: "- I want to increase my muscle mass." },
+      ],
+    },
+    { value: "66b4e0b18596df14d43fa0c0", label: "brain and Mental Health", 
+      answers: [
+        { value: "66b4e0b18596df14d43fa0c1", label: "- I want to maintain optimal mental endurance." },
+        { value: "66b4e0b18596df14d43fa0c2", label: "- I want to optimize my intellectual performance as a student." },
+        { value: "66b4e0b18596df14d43fa0c3", label: "- I want to fight against concentration and memory problems." },
+        { value: "66b4e0b18596df14d43fa0c4", label: "- I wish to reduce my mental fatigue." },
+        { value: "66b4e0b18596df14d43fa0c5", label: "- I want to be more resistant to distractions." },
+        { value: "66b4e0b18596df14d43fa0c6", label: "- I want to avoid frequent headaches and migraines." },
+      ],
+    },
+    { value: "66b4e13d8596df14d43fa110", label: "relaxation and sleep", 
+      answers: [
+        { value: "66b4e13d8596df14d43fa111", label: "- I feel overwhelmed and exhausted by stress." },
+        { value: "66b4e13d8596df14d43fa113", label: "- I am constantly stressed and have trouble relaxing." },
+        { value: "66b4e13d8596df14d43fa114", label: "- I wake up tired despite a full night's sleep." },
+        { value: "66b4e13d8596df14d43fa115", label: "- I feel drowsy during the day." },
+        { value: "66b4e13d8596df14d43fa116", label: "- I am going through a difficult period." },
+      ],
+    },
+    { value: "66b4e2a28596df14d43fa118", label: "feminine and masculine health", 
+      answers: [
+        { value: "66b4e2a28596df14d43fa119", label: "- I want to solve the problem of painful or irregular periods." },
+        { value: "66b4e2a28596df14d43fa11a", label: "- I wish to improve my fertility." },
+        { value: "66b4e2a28596df14d43fa11b", label: "- I want to relieve premenstrual syndrome." },
+        { value: "66b4e2a28596df14d43fa11c", label: "- I want to stimulate my lactation to breastfeed my baby." },
+        { value: "66b4e2a28596df14d43fa11d", label: "- I want to boost my libido." },
+        { value: "66b4e2a28596df14d43fa11e", label: "- I want to maintain my erection longer." },
+      ],
+    },
+    { value: "66b4f6ef8596df14d43fa174", label: "beauty: hair, nails and skin", 
+      answers: [
+        { value: "66b4f6ef8596df14d43fa175", label: "My scalp is dry, irritated, or flaky." },
+        { value: "66b4f6ef8596df14d43fa176", label: "My hair growth is not fast enough." },
+        { value: "66b4f6ef8596df14d43fa177", label: "Slow nail growth" },
+        { value: "66b4f6ef8596df14d43fa178", label: "Sensitive skin" },
+        { value: "66b4f6ef8596df14d43fa179", label: "Acne-prone skin" },
+      ],
+    },
+    { value: "66b4f76d8596df14d43fa204", label: "stomach and guts health", 
+      answers: [
+        { value: "66b4f76d8596df14d43fa205", label: "I have bloating, gas, or abdominal pain" },
+        { value: "66b4f76d8596df14d43fa206", label: "I am constipated and have trouble going to the bathroom" },
+        { value: "66b4f76d8596df14d43fa207", label: "I often feel nauseous" },
+        { value: "66b4f76d8596df14d43fa208", label: "I have digestive spasms and abdominal pain" },
+        { value: "66b4f76d8596df14d43fa209", label: "I have sensitive gums " },
+      ],
+    },
+    { value: "66b4f7e88596df14d43fa27f", label: "heart and lungs health", 
+      answers: [
+        { value: "66b4f7e88596df14d43fa280", label: "I have high cholesterol levels" },
+        { value: "66b4f7e88596df14d43fa281", label: "I have high and unstable blood pressure" },
+        { value: "66b4f7e88596df14d43fa282", label: "I have a family history of heart disease" },
+        { value: "66b4f7e88596df14d43fa283", label: "I have an irritative cough due to pollution or allergies." },
+        { value: "66b4f7e88596df14d43fa284", label: "I have a dry, irritating cough." },
+        { value: "66b4f7e88596df14d43fa285", label: "I have a wet cough with thick mucus." },
+      ],
+    },
+    { value: "66b4f8308596df14d43fa300", label: "Bones and Joints", 
+      answers: [
+        { value: "66b4f8308596df14d43fa301", label: "I am worried about maintaining the flexibility and mobility of my joints." },
+        { value: "66b4f8308596df14d43fa302", label: "I am an athlete and put a lot of stress on my joints." },
+        { value: "66b4f8308596df14d43fa303", label: "I am concerned about my bone health." },
+      ],
+    },
+    { value: "66b4fa598596df14d43fa381", label: "Weight loss and gain", 
+      answers: [
+        { value: "66b4fa598596df14d43fa382", label: "I lack appetite and feel nauseous." },
+        { value: "66b4fa598596df14d43fa383", label: "I want to lose weight." },
+        { value: "66b4fa598596df14d43fa384", label: "I struggle to maintain my weight (after reaching my goal)" },
+        { value: "66b4fa598596df14d43fa385", label: "I want to control my sugar cravings." },
+        { value: "66b4fa598596df14d43fa386", label: "I want to increase my basal metabolism." },
+        { value: "66b4fa598596df14d43fa387", label: "I have trouble controlling my appetite." },
+      ],
+    },
   ],
   score: [
     { value: 1, label: "1" },
@@ -123,8 +213,8 @@ const options = {
     { value: "non", label: "Non" },
   ],
   smoking: [
-    { value: "oui", label: "Oui" },
-    { value: "non", label: "Non" },
+    { value: "66b4ddd48596df14d43fa0b3", label: "Yes" },
+    { value: "66b4ddd48596df14d43fa0b4", label: "No" },
   ],
 };
 
@@ -132,12 +222,13 @@ const AddMoleculePage = () => {
   const [formData, setFormData] = useState({
     name: "",
     priority: "",
+    answer: "",
     age: [],
     sex: [],
     woman: [],
     pathology: [],
     medication: [],
-    alcool: [],
+    alcohol: [],
     smoking: [],
     diet: [],
     sport: [],
@@ -150,7 +241,7 @@ const AddMoleculePage = () => {
     eyes: [],
     stress: [],
     score: "",
-    theme: [],
+    theme: "",
   });
 
   const handleChange = (selectedOption, actionMeta) => {
@@ -184,7 +275,7 @@ const AddMoleculePage = () => {
     <form onSubmit={handleSubmit} className="container mt-4">
       <div className="mb-3">
         <label htmlFor="name" className="form-label">
-          Nom
+          Name
         </label>
         <input
           type="text"
@@ -199,8 +290,36 @@ const AddMoleculePage = () => {
         />
       </div>
       <div className="mb-3">
+        <label htmlFor="theme" className="form-label">
+          Theme
+        </label>
+        <Select
+          name="theme"
+          options={options.theme}
+          classNamePrefix="select"
+          value={options.theme.find(
+            (option) => option.value === formData.theme,
+          )}
+          onChange={handleChange}
+        />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="answer" className="form-label">
+          Answer
+        </label>
+        <Select
+          name="answer"
+          options={options.theme.find((t) => t.value===formData.theme)?.answers}
+          classNamePrefix="select"
+          value={options.theme.find((t) => t.value===formData.theme)?.answers?.find(
+            (option) => option.value === formData.answer,
+          )}
+          onChange={handleChange}
+        />
+      </div>
+      <div className="mb-3">
         <label htmlFor="priority" className="form-label">
-          Priorité
+          Priority
         </label>
         <Select
           name="priority"
@@ -244,7 +363,7 @@ const AddMoleculePage = () => {
       </div>
       <div className="mb-3">
         <label htmlFor="sex" className="form-label">
-          Sexe
+          Sex
         </label>
         <Select
           isMulti
@@ -260,7 +379,7 @@ const AddMoleculePage = () => {
       </div>
       <div className="mb-3">
         <label htmlFor="woman" className="form-label">
-          Femmes
+          Woman
         </label>
         <Select
           isMulti
@@ -292,7 +411,7 @@ const AddMoleculePage = () => {
       </div>
       <div className="mb-3">
         <label htmlFor="medication" className="form-label">
-          Médicaments
+          Medications
         </label>
         <Select
           isMulti
@@ -307,23 +426,23 @@ const AddMoleculePage = () => {
         />
       </div>
       <div className="mb-3">
-        <label htmlFor="alcool" className="form-label">
-          Consommation d'alcool
+        <label htmlFor="alcohol" className="form-label">
+          Alcohol
         </label>
         <Select
           isMulti
-          name="alcool"
-          options={options.alcool}
+          name="alcohol"
+          options={options.alcohol}
           classNamePrefix="select"
-          value={options.alcool.find(
-            (option) => option.value === formData.alcool,
+          value={options.alcohol.find(
+            (option) => option.value === formData.alcohol,
           )}
           onChange={handleChange}
         />
       </div>
       <div className="mb-3">
         <label htmlFor="smoking" className="form-label">
-          Tabagisme
+          Smoking
         </label>
         <Select
           isMulti
@@ -336,7 +455,7 @@ const AddMoleculePage = () => {
           onChange={handleChange}
         />
       </div>
-      <div className="mb-3">
+      {/*<div className="mb-3">
         <label htmlFor="diet" className="form-label">
           Régime alimentaire
         </label>
@@ -476,10 +595,9 @@ const AddMoleculePage = () => {
           onChange={handleChange}
         />
       </div>
-
       <div className="mb-3">
         <label htmlFor="theme" className="form-label">
-          Thème
+          Theme
         </label>
         <Select
           isMulti
@@ -492,7 +610,7 @@ const AddMoleculePage = () => {
           )}
           onChange={handleChange}
         />
-      </div>
+      </div>*/}
       <button type="submit" className="btn btn-primary">
         Submit
       </button>
