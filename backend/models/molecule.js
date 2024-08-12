@@ -2,15 +2,17 @@ const mongoose = require("mongoose");
 
 const moleculeSchema = new mongoose.Schema({
   name: { type: String, required: true },
+  theme: { type: mongoose.ObjectId, required: true },
+  answer: { type: mongoose.ObjectId, required: true },
   priority: { type: Number, required: true },
   score: { type: Number, required: true },
-  age: { type: Array, required: false },
-  sex: { type: Array, required: false },
-  woman: { type: Array, required: false },
-  pathology: { type: Array, required: false },
-  medication: { type: Array, required: false },
-  alcool: { type: Array, required: false },
-  smoking: { type: Array, required: false },
+  age: { type: [mongoose.ObjectId], required: false },
+  sex: { type: [mongoose.ObjectId], required: false },
+  woman: { type: [mongoose.ObjectId], required: false },
+  pathology: { type: [mongoose.ObjectId], required: false },
+  medication: { type: [mongoose.ObjectId], required: false },
+  alcohol: { type: [mongoose.ObjectId], required: false },
+  smoking: { type: [mongoose.ObjectId], required: false },
   diet: { type: Array, required: false },
   sport_activity: { type: Array, required: false },
   sun_exposition: { type: Array, required: false },
@@ -20,7 +22,6 @@ const moleculeSchema = new mongoose.Schema({
   freq_cons_sup_2: { type: Array, required: false },
   water_liters_per_day: { type: Array, required: false },
   eyes: { type: Array, required: false },
-  theme: { type: Array, required: false },
 });
 
 const Molecule = mongoose.model("Molecule", moleculeSchema);

@@ -221,8 +221,10 @@ const options = {
 const AddMoleculePage = () => {
   const [formData, setFormData] = useState({
     name: "",
-    priority: "",
+    theme: "",
     answer: "",
+    priority: "",
+    score: "",
     age: [],
     sex: [],
     woman: [],
@@ -240,8 +242,6 @@ const AddMoleculePage = () => {
     water_liters_per_day: [],
     eyes: [],
     stress: [],
-    score: "",
-    theme: "",
   });
 
   const handleChange = (selectedOption, actionMeta) => {
