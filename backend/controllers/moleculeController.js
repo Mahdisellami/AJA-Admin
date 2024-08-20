@@ -56,7 +56,7 @@ const deleteMoleculeById = async (req, res) => {
 
 const selectBestFiveMolecules = async (req, res) => {
   try {
-    const molecules = await moleculeService.selectBestFiveMolecules();
+    const molecules = await moleculeService.selectBestFiveMolecules(req.body);
     res.status(200).json(molecules);
   } catch (err) {
     res.status(404).json({ error: err.message });
