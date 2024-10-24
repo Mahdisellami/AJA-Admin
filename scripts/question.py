@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 import json
 import requests
@@ -58,4 +57,4 @@ question_data = {
 
 
 post_to_api(question_data)
->>>>>>> acc01cee3d75a35c9edb9102300b8c3179fc5624
+
