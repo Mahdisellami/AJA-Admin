@@ -32,4 +32,3 @@ for question, group in grouped:
 
    
     post_to_api(question_data)
-
