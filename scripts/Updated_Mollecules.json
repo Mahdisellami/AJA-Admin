@@ -1,0 +1,476 @@
+[
+    {
+        "priority": "II",
+        "name": "vitamine C",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "II",
+        "name": "vitamine B12",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "II",
+        "name": "Acide folique",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "I",
+        "name": "spirulina",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Antidépresseurs"
+        ],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "I",
+        "name": "ginseng",
+        "woman": [
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "Personnes âgées",
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Anticoagulants",
+            "Antidiabétiques",
+            "Antihypertenseurs",
+            "Antidépresseurs"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "II",
+        "name": "rhodiola",
+        "woman": [
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "Personnes âgées",
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Anticoagulants",
+            "Antidiabétiques",
+            "Antidépresseurs"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "I",
+        "name": "Gelee royal",
+        "woman": [
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Anticoagulants",
+            "Antidiabétiques",
+            "Antihypertenseurs",
+            "Antidépresseurs"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "",
+        "name": "ginseng",
+        "woman": [
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Anticoagulants",
+            "Antihypertenseurs",
+            "Antidépresseurs"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "I",
+        "name": "myrtille",
+        "woman": [
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Anticoagulants",
+            "Antidiabétiques",
+            "Antihypertenseurs"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "",
+        "name": "Ginseng",
+        "woman": [
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Anticoagulants",
+            "Antidiabétiques",
+            "Antihypertenseurs"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "I",
+        "name": "thé vert",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "",
+        "name": "Guarana",
+        "woman": [
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Anticoagulants",
+            "Antidiabétiques"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "II",
+        "name": "Fer,",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "II",
+        "name": "Vitamine B12",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "II",
+        "name": "Vitamine C",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Antihypertenseurs"
+        ],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "II",
+        "name": "Coenzyme Q10",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "I",
+        "name": "Ginseng",
+        "woman": [
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Anticoagulants",
+            "Antidiabétiques",
+            "Antihypertenseurs",
+            "Antidépresseurs"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "II",
+        "name": "Vitamines du groupe B",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "II",
+        "name": "magnésium",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "II",
+        "name": "fer",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "II",
+        "name": "coenzyme q10",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "I",
+        "name": "ginseng",
+        "woman": [
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "",
+        "pathology": [],
+        "medication": [
+            "Anticoagulants",
+            "Antidiabétiques",
+            "Antihypertenseurs",
+            "Antidépresseurs"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "I",
+        "name": "gelee royale",
+        "woman": [
+            "Procréation planifiée"
+        ],
+        "age": [],
+        "sex": "homme",
+        "pathology": [
+            "psychiatrique"
+        ],
+        "medication": [
+            "medicament cardiovasculaire"
+        ],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "I",
+        "name": "spiruline",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [
+            "diabete"
+        ],
+        "medication": [
+            "Antidépresseurs",
+            "antibiotique"
+        ],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "I",
+        "name": "Caféine",
+        "woman": [
+            "Procréation planifiée",
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "homme",
+        "pathology": [
+            "psychiatrique"
+        ],
+        "medication": [
+            "medicament cardiovasculaire"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "I",
+        "name": "guarana",
+        "woman": [
+            "Procréation planifiée",
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "homme",
+        "pathology": [
+            "psychiatrique",
+            "diabete"
+        ],
+        "medication": [
+            "medicament cardiovasculaire",
+            "antibiotique"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "II",
+        "name": "ginseng",
+        "woman": [
+            "Procréation planifiée",
+            "Allaitante",
+            "Enceinte"
+        ],
+        "age": [
+            "adulte",
+            "Enfants"
+        ],
+        "sex": "homme",
+        "pathology": [
+            "psychiatrique",
+            "diabete"
+        ],
+        "medication": [
+            "Anticoagulants",
+            "Antidiabétiques",
+            "Antihypertenseurs",
+            "Antidépresseurs",
+            "medicament cardiovasculaire",
+            "antibiotique"
+        ],
+        "alcohol": [],
+        "smoking": "Fumeur"
+    },
+    {
+        "priority": "I",
+        "name": "taurine",
+        "woman": [],
+        "age": [],
+        "sex": "",
+        "pathology": [
+            "troubles renaux",
+            "diabete"
+        ],
+        "medication": [
+            "antibiotique"
+        ],
+        "alcohol": [],
+        "smoking": ""
+    },
+    {
+        "priority": "II",
+        "name": "vitamine du groupe B",
+        "woman": [],
+        "age": [
+            "Personnes âgées"
+        ],
+        "sex": "",
+        "pathology": [],
+        "medication": [],
+        "alcohol": [],
+        "smoking": ""
+    }
+]

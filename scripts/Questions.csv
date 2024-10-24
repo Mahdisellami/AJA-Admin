@@ -1,0 +1,27 @@
+﻿question;answer
+sex;Homme
+sex;femme
+age;Personnes âgées
+age;adulte
+age;Enfants
+femme ;menopausé
+femme ;age  de procreer
+femme ;Procréation planifiée
+femme ;Allaitante
+femme ;Enceinte
+pathologie;psychiatrique 
+pathologie;troubles renaux
+pathologie;trouble hepatique
+pathologie;trouble cardiaque-vasculaire
+pathologie;HTA
+pathologie;diabete
+medicaments;Anticoagulants
+medicaments;Antidiabétiques
+medicaments;Antihypertenseurs
+medicaments;Antidépresseurs
+medicaments;medicament cardiovasculaire
+medicaments;antibiotique
+alcool;Consomme de l'alcool
+alcool;grand alcoolique = insuffisance hepatique
+Fumeur;Fumeur
+Fumeur;Non fumeur

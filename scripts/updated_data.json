@@ -1,0 +1,1307 @@
+[
+    {
+        "name": "vitamine C",
+        "priority": 2,
+        "score": 8,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "vitamine B12",
+        "priority": 2,
+        "score": 7,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Acide folique",
+        "priority": 2,
+        "score": 6,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "spirulina",
+        "priority": 1,
+        "score": 7,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d30",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "ginseng",
+        "priority": 1,
+        "score": 8,
+        "age": [
+            "67122f42f9c5b997bccc1d1d",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "67122f42f9c5b997bccc1d2d",
+            "67122f42f9c5b997bccc1d2e",
+            "67122f42f9c5b997bccc1d2f",
+            "67122f42f9c5b997bccc1d30",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "rhodiola",
+        "priority": 2,
+        "score": 6,
+        "age": [
+            "67122f42f9c5b997bccc1d1d",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "67122f42f9c5b997bccc1d2d",
+            "67122f42f9c5b997bccc1d2e",
+            "",
+            "67122f42f9c5b997bccc1d30",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Gelee royal",
+        "priority": 1,
+        "score": 10,
+        "age": [
+            "",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "67122f42f9c5b997bccc1d2d",
+            "67122f42f9c5b997bccc1d2e",
+            "67122f42f9c5b997bccc1d2f",
+            "67122f42f9c5b997bccc1d30",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "ginseng",
+        "priority": 1,
+        "score": 10,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "67122f42f9c5b997bccc1d2d",
+            "",
+            "67122f42f9c5b997bccc1d2f",
+            "67122f42f9c5b997bccc1d30",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "myrtille",
+        "priority": 1,
+        "score": 9,
+        "age": [
+            "",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "67122f42f9c5b997bccc1d2d",
+            "67122f42f9c5b997bccc1d2e",
+            "67122f42f9c5b997bccc1d2f",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Ginseng",
+        "priority": 1,
+        "score": 9,
+        "age": [
+            "",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "67122f42f9c5b997bccc1d2d",
+            "67122f42f9c5b997bccc1d2e",
+            "67122f42f9c5b997bccc1d2f",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "thé vert",
+        "priority": 1,
+        "score": 8,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d13",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Guarana",
+        "priority": 1,
+        "score": 8,
+        "age": [
+            "",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "67122f42f9c5b997bccc1d2d",
+            "67122f42f9c5b997bccc1d2e",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d13",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Fer,",
+        "priority": 2,
+        "score": 7,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d14",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Vitamine B12",
+        "priority": 2,
+        "score": 7,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d14",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Vitamine C",
+        "priority": 2,
+        "score": 5,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "67122f42f9c5b997bccc1d2f",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d14",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Coenzyme Q10",
+        "priority": 2,
+        "score": 6,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d14",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Ginseng",
+        "priority": 1,
+        "score": 7,
+        "age": [
+            "",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "67122f42f9c5b997bccc1d2d",
+            "67122f42f9c5b997bccc1d2e",
+            "67122f42f9c5b997bccc1d2f",
+            "67122f42f9c5b997bccc1d30",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d14",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Vitamines du groupe B",
+        "priority": 2,
+        "score": 8,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d15",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "magnésium",
+        "priority": 2,
+        "score": 8,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d15",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "fer",
+        "priority": 2,
+        "score": 7,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d15",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "coenzyme q10",
+        "priority": 2,
+        "score": 6,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d15",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "ginseng",
+        "priority": 1,
+        "score": 8,
+        "age": [
+            "",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "67122f42f9c5b997bccc1d2d",
+            "67122f42f9c5b997bccc1d2e",
+            "67122f42f9c5b997bccc1d2f",
+            "67122f42f9c5b997bccc1d30",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d15",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "gelee royale",
+        "priority": 1,
+        "score": 6,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "67122f42f9c5b997bccc1d28",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d31",
+            ""
+        ],
+        "alcohol": [
+            "",
+            "67122f42f9c5b997bccc1d23"
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d15",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "spiruline",
+        "priority": 1,
+        "score": 5,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d3a"
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d30",
+            "",
+            "67122f42f9c5b997bccc1d32"
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d15",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "Caféine",
+        "priority": 1,
+        "score": 9,
+        "age": [
+            "",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "67122f42f9c5b997bccc1d28",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d31",
+            ""
+        ],
+        "alcohol": [
+            "",
+            "67122f42f9c5b997bccc1d23"
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "guarana",
+        "priority": 1,
+        "score": 8,
+        "age": [
+            "",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "67122f42f9c5b997bccc1d28",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d3a"
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d31",
+            "67122f42f9c5b997bccc1d32"
+        ],
+        "alcohol": [
+            "",
+            "67122f42f9c5b997bccc1d23"
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "ginseng",
+        "priority": 2,
+        "score": 8,
+        "age": [
+            "",
+            "67122f42f9c5b997bccc1d1e",
+            "67122f42f9c5b997bccc1d1f"
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "67122f42f9c5b997bccc1d28",
+            "67122f42f9c5b997bccc1d29",
+            "67122f42f9c5b997bccc1d2a"
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d3a"
+        ],
+        "medication": [
+            "67122f42f9c5b997bccc1d2d",
+            "67122f42f9c5b997bccc1d2e",
+            "67122f42f9c5b997bccc1d2f",
+            "67122f42f9c5b997bccc1d30",
+            "67122f42f9c5b997bccc1d31",
+            "67122f42f9c5b997bccc1d32"
+        ],
+        "alcohol": [
+            "",
+            "67122f42f9c5b997bccc1d23"
+        ],
+        "smoking": [
+            "67122f42f9c5b997bccc1d19"
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "taurine",
+        "priority": 1,
+        "score": 6,
+        "age": [
+            "",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "67122f42f9c5b997bccc1d36",
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d3a"
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "67122f42f9c5b997bccc1d32"
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    },
+    {
+        "name": "vitamine du groupe B",
+        "priority": 2,
+        "score": 7,
+        "age": [
+            "67122f42f9c5b997bccc1d1d",
+            "",
+            ""
+        ],
+        "sex": [
+            ""
+        ],
+        "woman": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "pathology": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "medication": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "alcohol": [
+            "",
+            ""
+        ],
+        "smoking": [
+            ""
+        ],
+        "answer": "67122f37f9c5b997bccc1d12",
+        "theme": "60d21b4967d0d8992e610c85"
+    }
+]

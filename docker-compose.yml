@@ -12,19 +12,36 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: password
     volumes:
       - mongo-data:/data/db
+    networks:
+      - app-network
 
-  # Node api service
   api:
     build: ./backend
+    container_name: api
     ports:
-      # local->container
       - 8000:8000
     environment:
       PORT: 8000
       MONGODB_URI: mongodb://mongo:27017
       DB_NAME: aja-db
-    depends_on: 
+    depends_on:
       - mongo
+    networks:
+      - app-network
+
+  scripts:
+    build:
+      context: ./scripts
+    container_name: scripts
+    depends_on:
+      - api
+    networks:
+      - app-network
+    command: bash -c "python question.py &&python nonthema.py  && python molectoquest.py"
+
+networks:
+  app-network:
+    driver: bridge
 
 volumes:
   mongo-data:
