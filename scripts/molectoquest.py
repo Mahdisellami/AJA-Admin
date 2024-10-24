@@ -208,20 +208,12 @@ def save_json(data, output_file, theme_related_answers):
 
 # Main function
 def main():
-    csv_file_path = 'Mollecules.csv'  # Path to your uploaded CSV file
-    output_json_file = 'updated_data.json'  # Path to the output JSON file
-
-    # Fetch all questions from the API
+    csv_file_path = 'Mollecules.csv'  
+    output_json_file = 'updated_data.json' 
     questions_json = fetch_all_questions()
-
-    # Filter out theme-related questions
     theme_related_questions = [q for q in questions_json if q.get('isThemeRelated')]
     theme_related_answers = theme_related_questions[0]['answers'] if theme_related_questions else []
-
-    # Load the CSV data
     csv_data = parse_csv_file(csv_file_path)
-
-    # Replace negative values (-) with corresponding answer IDs
     answer_id_mapping = create_answer_id_mapping(questions_json)
     updated_data = replace_negative_values(csv_data, answer_id_mapping)
 
@@ -268,4 +260,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
