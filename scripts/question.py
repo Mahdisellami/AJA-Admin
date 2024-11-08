@@ -10,7 +10,7 @@ data.columns = data.columns.str.strip()
 
 # Function to post data to the API
 def post_to_api(json_data):
-    url = 'http://localhost:8000/api/questions'
+    url = 'http://api:8000/api/questions'
     headers = {'Content-Type': 'application/json'}
     response = requests.post(url, data=json.dumps(json_data), headers=headers)
     if response.status_code == 201:
