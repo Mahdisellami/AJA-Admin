@@ -3,7 +3,7 @@ import json
 import requests
 
 # Load the CSV file and process it
-file_path = 'alleg.csv'  
+file_path = 'Allegations.csv'  
 data = pd.read_csv(file_path, delimiter=';', quotechar='"', encoding='ISO-8859-1')
 data = data.fillna('')
 data.columns = data.columns.str.strip()
