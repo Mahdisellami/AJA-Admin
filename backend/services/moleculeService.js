@@ -50,7 +50,7 @@ const selectBestFiveMolecules = async (data) => {
   // Build the query object dynamically based on available filters
   const query = {};
   
-  query.allegation = new ObjectId(allegation);
+  query.answer = new ObjectId(allegation);
 
   if (age && Array.isArray(age)) {
     query.age = { $nin: utils.convertToObjectIdArray(age) };
